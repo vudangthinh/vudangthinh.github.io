@@ -1,3 +1,4 @@
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+remote_theme: jekyll-simple
 title: Welcome to my homepage!
 description: On this blog I will share what I have learned...
