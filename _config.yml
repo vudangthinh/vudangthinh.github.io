@@ -1,6 +1,6 @@
-name: vudangthinh
-markdown: kramdown
+# name: vudangthinh
+# markdown: kramdown
 # theme: jekyll-theme-slate
-remote_theme: wild-flame/jekyll-simple
-title: Welcome to my homepage!
-description: On this blog I will share what I have learned...
+# remote_theme: wild-flame/jekyll-simple
+# title: Welcome to my homepage!
+# description: On this blog I will share what I have learned...
