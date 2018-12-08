@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thinh's Post"
+title: "Example Post"
 date: 2014-04-30
 ---
 
