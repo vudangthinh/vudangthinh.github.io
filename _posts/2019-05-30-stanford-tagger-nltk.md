@@ -11,15 +11,15 @@ The Penn treebank POS tagset includes 36 POS tags and 12 others for punctuations
 ## 2. Stanford CoreNLP in NLTK
 From version 3.3, the Stanford NER and POS taggers from ```nltk.tag``` are deprecated, instead they provide new API ```nltk.parse.corenlp.CoreNLPParser``` for this task. In this tutorial, I will show steps how to use this new API.  
 
-1. Download the CoreNLP packages from here:
+* Download the CoreNLP packages from here:
 [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html#download)  
-2. Unzip your file and cd to that directory.  
-3. Start the CoreNLP server:
+* Unzip your file and cd to that directory.  
+* Start the CoreNLP server:
 
 ```
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9000 -port 9000 -timeout 15000 & 
 ```  
-4. In Python:
+* In Python:
 ```python
 >>> from nltk.parse import CoreNLPParser
 >>> from nltk.parse.corenlp import CoreNLPDependencyParser
