@@ -4,11 +4,10 @@ title: Introduction to Stanford CoreNLP in NLTK
 ---
 
 ## 1. What is Stanford CoreNLP?
-Stanford CoreNLP is a collection of pretrained state-of-the-art models in NLP.
+Stanford CoreNLP is a collection of pretrained state-of-the-art models in NLP. These models were used by the researchers in the CoNLL 2017 and 2018 competitions.
+CoreNLP is written in Java and requires Java for running, but it also offers programming interfaces for several programming languages, including Python.
 
-The Penn treebank POS tagset includes 36 POS tags and 12 others for punctuations and special symbols.
-
-## 2. Stanford CoreNLP in NLTK
+## 2. How to use CoreNLP in NLTK?
 From version 3.3, the Stanford NER and POS taggers from ```nltk.tag``` are deprecated, instead they provide new API ```nltk.parse.corenlp.CoreNLPParser``` for this task. In this tutorial, I will show steps how to use this new API.  
 
 * Download the CoreNLP packages from here:
